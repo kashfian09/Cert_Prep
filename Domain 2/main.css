@@ -2,3 +2,12 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: lightgreen;
 }
+
+p {
+    color: navy;
+}
+
+.sale {
+    font-weight: bold;
+    background-color: aqua;
+}
