@@ -10,8 +10,7 @@
     We look forward to hearing from you!</p>
 
     <!-- insert form here-->
-    <form action="thankyou.html" method="post"
-    oninput="'fn.value = firstname.value + ' ' + lastname.value">
+    <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
         <label for="firstname">First Name</label>
        <input type="text" name="firstname" id="firstname"/>
        <br>
@@ -23,9 +22,15 @@
        <br>
        <p>How did you hear about us?</p>
        <select name="found" id="found">
+            <optgroup label="Media">
             <option value="TV">TV</option>
-            <option value="Web" selected>Web</option>
+            <option value="Radio">Radio</option>
             <option value="Other">Other</option>
+            </optgroup>
+            <optgroup label="Web">
+            <option value="Google">Google</option>
+            <option value="Bing">Bing</option>
+            </optgroup>
        </select>
        <p>Add comments below</p>
        <textarea rows="6" cols="50" maxlength="255"></textarea>
