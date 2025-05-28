@@ -1,10 +1,11 @@
-﻿body
+﻿﻿body
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
 }
 p {
     color: navy;
+    font-family: Arial,"Segoe UI",sans-serif;
 }
 a {
     text-decoration:none;
