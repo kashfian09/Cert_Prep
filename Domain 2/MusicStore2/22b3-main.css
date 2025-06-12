@@ -1,4 +1,4 @@
-﻿body
+﻿﻿body
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
@@ -13,11 +13,9 @@ p {
 #sidenote {
     background-color:#dbd9d9;
 }
-
 a{
     text-decoration: none;
 }
-
 a:hover{
     text-decoration: underline;
     font-weight: bold;
