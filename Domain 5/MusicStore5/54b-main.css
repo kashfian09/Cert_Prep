@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -60,4 +60,10 @@ a:hover {
 td.vbot {
     vertical-align:bottom;
     height:30px;
+}
+@media only screen and (max-width:500px)
+{
+    body{
+        background-color: white;
+    }
 }
